@@ -5,4 +5,5 @@ if [ -d "$DIRECTORY" ]; then
 else
 	 #bzr branch lp:~dhis2-devs-core/dhis2/2.14 $DIRECTORY;
 	 bzr branch lp:~kiran-f/dhis2/dhis2 $DIRECTORY;
+     cd $DIRECTORY;
 fi
