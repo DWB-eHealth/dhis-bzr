@@ -13,7 +13,7 @@ Scripts to branch or update the DHIS Bazaar repository from Launchpad.
 1. Create your hibernate.properties file 
 
   - Choose what directory to use for `DHIS2_HOME`. DHIS2 will use this to store logs, apps etc.
-  - Copy [hibernate.properties.example](https://github.com/DWB-eHealth/dhis-bzr/blob/master/examples/hibernate.properties.example) into this directory and remove ".example" extension from the file
+  - Copy [hibernate.properties.example](https://github.com/DWB-eHealth/dhis-bzr/blob/master/hibernate.properties.example) into this directory and remove ".example" extension from the file
   - Modify the file if needed
   - Save the file
 
