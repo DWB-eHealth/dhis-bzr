@@ -1,8 +1,11 @@
 DIRECTORY="trunk"
+COMMIT_SHA="979a8e9952be410438563178f47d813f3bc0a60d"
+
 if [ -d "$DIRECTORY" ]; then
   cd $DIRECTORY;
-  bzr update;
+  git fetch && git checkout $COMMIT_SHA;
 else
-  bzr branch lp:~dhis2-devs-core/dhis2/2.23 -r 23044 $DIRECTORY;
+  git clone git@github.com:dhis2/dhis2-core.git $DIRECTORY;
   cd $DIRECTORY;
+  git checkout $COMMIT_SHA;
 fi
