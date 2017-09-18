@@ -50,5 +50,5 @@ Scripts to branch or update the DHIS Bazaar repository from Launchpad.
   * Run ```mvn jetty:run-war```
   * *Once you see "Started Jetty Server" on your terminal, your DHIS server is up*
 
-8. Login with DHIS [default username and password](https://www.dhis2.org/doc/snapshot/en/user/html/ch02s02.html).
+8. Login with DHIS [default username and password](https://docs.dhis2.org/master/en/user/html/mod2_2.html).
   *See the 6th point of Starting up with a blank database column*
