@@ -3,7 +3,6 @@ Scripts to branch or update the DHIS Bazaar repository from Launchpad.
 
 ### Dependencies
 - [postgres](http://www.postgresql.org/download/)
-- [bazaar](http://wiki.bazaar.canonical.com/Download)
 - [maven](https://maven.apache.org/)
 
 *You can use brew to install these dependencies*
