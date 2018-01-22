@@ -1,5 +1,5 @@
 DIRECTORY="trunk"
-COMMIT_SHA="83b36b85c64dacaf5a48d1eafab1180176ee8133"
+COMMIT_SHA="49b827a4af12f05ae4b01f448b3fb00efc8b9fdf"
 
 if [ -d "$DIRECTORY" ]; then
   cd $DIRECTORY;
