@@ -1,11 +1,11 @@
 DIRECTORY="trunk"
-COMMIT_SHA="97e2b7c95969430bb43115c32f6b3a25000008fd"
+COMMIT_SHA="19fc927a45e559e1b833009008acfd3e6a24c29d"
 
 if [ -d "$DIRECTORY" ]; then
   cd $DIRECTORY;
   git fetch && git checkout $COMMIT_SHA;
 else
-  git clone git@github.com:dhis2/dhis2-core.git $DIRECTORY;
+  git clone git@github.com:DWB-eHealth/dhis2-core.git $DIRECTORY;
   cd $DIRECTORY;
   git checkout $COMMIT_SHA;
 fi
